@@ -10,6 +10,84 @@ body {
 	margin: 0;
 }
 
+.box{
+
+	background-color: gainsboro;
+	border-color: darkgray;
+	border-style: dashed;
+	position: static;
+	width: 1000px;
+	height: 400px;
+	overflow: auto;
+}
+
+.levyhorni{
+	background-color: chartreuse;
+	display: block;
+
+	
+}
+
+.pravyokraj{
+	background-color: gold;
+}
+.pravydolni{
+	background-color: cornflowerblue;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.dolniokraj{
+	background-color: tomato;
+	margin-left: 230px;
+	margin-bottom: 0%;
+}
+
+.levyhorni,
+.pravyokraj,
+.pravydolni,
+.dolniokraj{
+	width: 25%;
+	height: 50px;
+	display: block;
+	position: absolut;
+}
+
+div{
+	display: inline-bblock;
+}
+
+header{
+margin: 0;
+padding: 0;
+text-align: left;
+background-color: red;
+
+}
+
+header a{
+color: white;
+text-decoration: none;
+padding: 20px 30px;
+display: inline-block;
+
+
+}
+
+header a:hover,
+header a:focus,
+header a:active{
+
+	background-color: darksalmon;
+
+}
+
+footer{
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0 ;
+}
 
 /* tady bude tvůj kód */
 
